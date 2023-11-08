@@ -1,0 +1,152 @@
+@font-face {
+    font-family:Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+  }
+  
+  h1 {
+    font-family: Norse-Bold, sans-serif;
+  }
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aqua
+}
+.main{
+    display: flex;
+    flex-direction:row;
+    width:100vw;
+    height:100vh;
+}
+.left{
+ background-image:url(./image/halie-west-25xggax4bSA-unsplash.jpg);
+ width:35vw;
+ background-repeat: no-repeat ;
+ background-size: cover;
+ color: rgb(224, 255, 84);
+ font-family:Norse-Bold sans-serif;
+ display: flex;
+ flex-direction:column ;
+}
+.right{
+   display: flex;
+  flex-direction: column;
+  background-color:rgb(69, 89, 86);
+  width:65vw;
+ 
+}
+.first{
+    height:25vh;
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+    margin-left:5%;
+    margin-bottom:5%;
+}
+.second{
+    background-color: rgba(38, 38, 38, 0.5) ;
+    height:33vh;
+    align-items: center;
+    box-shadow: 2px 3px #2c2c2c;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.form-main-div{
+    display: flex;
+    flex-direction: row;
+    width:60%;
+    justify-content: space-around;
+    
+}
+.form-div{
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 10px;
+}
+input{
+    width:200px;
+    border:1px solid #8cf584;
+    height:25px;
+    border-radius: 5px;
+    outline: none; 
+}
+input:focus{
+    border:1px solid rgb(23, 23, 255);
+}
+
+input:invalid{
+    border:1px solid red;
+}
+label{
+    font-size:12px;
+    margin-bottom:5px;
+    color: rgb(255, 255, 255);
+}
+#error{
+    color:rgb(241, 124, 124);
+    font-size:10px;
+    margin-top:5px;
+}
+.btn-green{
+    background-color:#596D48;
+    color:white;
+    border: 2px solid rgb(57, 75, 57);
+    border-radius: 5px;
+    height:40px;
+    width:175px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 2px 1px #113f22;
+
+}
+.btn-green:hover{
+    background-color:white;
+    color:#596D48;
+}
+.third{
+   margin-left:50px;
+   margin-top:25px;
+}
+.hyperLink{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.login{
+    color: #f4f6ff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.a-footer{
+    color:rgb(43, 227, 178);
+}
+.p-footer{
+    font-size:12px ;
+ 
+}
+.forImage{
+  height:40vh;
+  display: flex;;
+  align-items: flex-end;
+
+}
+
+.forFooter{
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+.semi-transparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(15, 223, 255, 0.3);
+}
+h1{
+    font-size: 75px;
+    font-family: Norse-Bold;
+}
